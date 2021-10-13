@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind.</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body>
+    <h1>[ MASTERMIND ]</h1>
+
+    <p>Codes couleurs à utiliser :</p>
+    <table>
+        <tr>
+            <td>🔴</td>
+            <td>🟠</td>
+            <td>🟡</td>
+            <td>🟢</td>
+            <td>🔵</td>
+            <td>🟣</td>
+            <td>⚫️</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+    </table>
+    <p>Nombres d'éléments du code à trouver : 4</p>
+    <p>Nombres d'essais : <span class="count"></span></p>
+    <p class="hint">Indice : /</p>
+    <div class="userInput">
+        <input type="text" name="userCode" id="userCode">
+        <input type="button" value="submit" id="submit" onclick="checkUserCode()">
+    </div>
+    <div class="history">
+        <p>Essais passés :</p>
+        <ul class="board">
+            
+        </ul>
+    </div>
+    <script type="text/javascript" src="script/main.js"></script>
+</body>
+
+
+</html>

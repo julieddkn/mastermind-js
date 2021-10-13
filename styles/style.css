@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New';
+    padding: 80px;
+}
+
+h1 {
+    font-family: 'Arial Black';
+}
+
+.instructions {
+    width: 700px;
+    font-size: .8rem;
+}
+
+td {
+    padding-right: 30px;
+}
+
+ul {
+    list-style: none;
+}
